@@ -1,6 +1,9 @@
 # metodos_tps
 Repo del TP1
-Vamos 🤮🤮🤮 fnatic!!
+<br>
+Bienvenidos a nuestro humilde ensayo.
+<br>
+Hipotesis: Fnatic 2021(spring) es el mejor roster en potencia  de la historia del League of Legends
 
 
 xd
