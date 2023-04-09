@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.random import rand
-import aux
+# import aux
 
 #punto 1 ----------------------------------------------------------------------------------------------------------
 def eliminacion_sin_pivoteo(matriz, B):
