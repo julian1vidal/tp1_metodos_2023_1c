@@ -15,7 +15,8 @@ def eliminacion_sin_pivoteo(matriz, B):
         vector_B.append(fila.pop(-1))
 
     result = resolver_ecuaciones(matriz, vector_B)
-    print(result)
+    return result
+    #print(result)
 
 def eliminar_sobrantes_columna(matriz, fila_pivot, posicion_aii):
     elemento_divisor = fila_pivot[posicion_aii]
@@ -47,6 +48,6 @@ def resolver_ecuaciones(matriz, vector_B):
 
 #punto 2---------------------------------------------------------------------------------------
 
-arri = [[1,2,3,4], [1,4,9,16], [1,8,27, 64], [1 ,16, 81, 256]]
-B = [2, 10, 44, 190]
-eliminacion_sin_pivoteo(arri , B)
+#arri = [[1,2,3,4], [1,4,9,16], [1,8,27, 64], [1 ,16, 81, 256]]
+#B = [2, 10, 44, 190]
+#eliminacion_sin_pivoteo(arri , B)

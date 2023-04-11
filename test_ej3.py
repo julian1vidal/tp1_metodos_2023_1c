@@ -13,43 +13,24 @@ A = [b1   c1   0      ...    0]
 Ax = vec_d
 """
 
+# Defino lista de tamaños de matriz a probar
+tamaños = [3, 5, 10, 100, 1000, 10000]
 
-def test_identidad_3x3():
-    # Genero vectores
-    size = 3
-    a = np.zeros(size)
-    b = np.ones(size)
-    c = np.zeros(size)
-    x_esperado = np.random.randint(10, size=size)
-    d = generar_vec_indep(a, b, c, x_esperado)
-
-    x_vec = paso_a_lista_y_ejecuto(a, b, c, d)
-    assert np.allclose(x_vec, x_esperado)
+# Repetir las pruebas n veces
+num_repeticiones = 10
 
 
-def test_identidad_10x10():
-    # Genero vectores
-    size = 10
-    a = np.zeros(size)
-    b = np.ones(size)
-    c = np.zeros(size)
-    x_esperado = np.random.randint(10, size=size)     # Enteros del 1 al 9 incl.
-    d = generar_vec_indep(a, b, c, x_esperado)
+def test_tridiag_aleatorio():
+    for tam in tamaños:
+        for i in range(num_repeticiones):
+            a = np.random.rand(tam)
+            b = np.random.rand(tam)
+            c = np.random.rand(tam)
+            x_esperado = np.random.rand(tam)
+            d = generar_vec_indep(a, b, c, x_esperado)
 
-    x_vec = paso_a_lista_y_ejecuto(a, b, c, d)
-    assert np.allclose(x_vec, x_esperado)
-
-
-
-
-
-# Convierto vectores a lista, ejecuto nuestra funcion
-# y convierto a np.array para testear
-def paso_a_lista_y_ejecuto(a, b, c, d):
-    convertir_a_lista(a, b, c, d)
-    x_vec = ej3.resolver_tridiagonal(a, b, c, d)
-    return np.array(x_vec)
-
+            x_vec = paso_a_lista_y_ejecuto(a, b, c, d)  # Devuelve un numpy array para testear con np.allclose
+            assert np.allclose(x_vec, x_esperado)
 
 # Junto los vectores a, b y c en una matriz y multiplico por x
 # Devuelve el vector independiente d.
@@ -63,9 +44,12 @@ def generar_vec_indep(a_ini, b_ini, c_ini, x_ini):
     return d_ini
 
 
-# Convierto vectores de numpy a listas.
-def convertir_a_lista(a, b, c, d):
+# Convierto vectores a lista, ejecuto nuestra funcion
+# y convierto a np.array para testear
+def paso_a_lista_y_ejecuto(a, b, c, d):
     a = a.tolist()
     b = b.tolist()
     c = c.tolist()
     d = d.tolist()
+    x_vec = ej3.resolver_tridiagonal(a, b, c, d)
+    return np.array(x_vec)

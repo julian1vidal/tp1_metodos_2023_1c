@@ -60,7 +60,7 @@ def eliminacion_con_pivoteo(A, b):
 
     return x
 
-
+"""
 ################# Ejecución
 
 # ejemplos internet
@@ -80,3 +80,5 @@ x = eliminacion_con_pivoteo(a,b)
 print("La solución del sistema es:")
 # Forzamos precisión de 8 decimales
 print(list(map(lambda elem:  round(elem, 8),x)))
+
+"""
