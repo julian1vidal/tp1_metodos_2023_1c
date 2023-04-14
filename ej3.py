@@ -16,6 +16,12 @@ def triangular(a_vec, b_vec, c_vec):  # Triangulo A (sin modificar el vector ind
             print("Error: division por cero")
             raise SystemExit
         b_vec[i + 1] -= c_vec[i] * a_vec[i + 1]
+        
+        
+def modificar_indep(a_vec, d_vec):  # Modifico d con los mi guardados en el vector a
+    size = len(a_vec)
+    for i in range(0, size - 1):
+        d_vec[i + 1] -= d_vec[i] * a_vec[i + 1]
 
 
 def resolver_tridiagonal(a_vec, b_vec, c_vec, d_vec):   # Triangula en todos los casos
@@ -33,12 +39,6 @@ def triangular_con_indep(a_vec, b_vec, c_vec, d_vec):  # Triangulo A (modificand
             raise SystemExit
         b_vec[i + 1] -= c_vec[i] * a_vec[i + 1]
         d_vec[i + 1] -= d_vec[i] * a_vec[i + 1]     # a_vec = mi
-
-
-def modificar_indep(a_vec, d_vec):  # Modifico d con los mi guardados en el vector a
-    size = len(a_vec)
-    for i in range(0, size - 1):
-        d_vec[i + 1] -= d_vec[i] * a_vec[i + 1]
 
 
 def resolver(b_vec, c_vec, d_vec):  # Devuelve el vector solucion
