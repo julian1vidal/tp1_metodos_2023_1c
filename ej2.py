@@ -39,11 +39,11 @@ def eliminacion_con_pivoteo(A, b):
         for i in range(k+1,n):
             if abs(A[i][k]) < 1.0e-12 : continue
 
-            factor = A[k][k]/A[i][k]
+            factor = A[i][k] / A[k][k]
             for j in range(k,n):
-                A[i][j] = A[k][j] - A[i][j]*factor
+                A[i][j] = A[i][j] - A[k][j]*factor
         #   También acarreamos las operaciones en el vector b.
-            b[i] = b[k] - b[i]*factor
+            b[i] = b[i] - b[k]*factor
 
     # Backwards substitution:
     #   Definimos el último elemento del vector x en base a la ecuación (A_nn . x_n = b_n)

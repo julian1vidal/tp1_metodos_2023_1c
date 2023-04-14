@@ -4,10 +4,10 @@ import ej1
 
 
 # Defino lista de tamaños de matriz a probar
-tamaños = [3, 5, 10, 100]
+tamaños = [3, 5, 10, 100, 1000]
 
 # Repetir las pruebas n veces
-num_repeticiones = 10
+num_repeticiones = 1
 
 
 def test_eg_sin_pivoteo():
