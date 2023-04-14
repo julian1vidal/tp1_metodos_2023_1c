@@ -9,27 +9,36 @@ Hipotesis: Fnatic 2021(summer) es el mejor roster en potencia  de la historia de
 xd
 <br> 
 Generales:
-.Contemplar en implementaciones el error numerico(hay que estableer un epsilon).
+<br>
+.Contemplar en implementaciones el error numerico(hay que estableer un epsilon)
+<br>
+.Buscar matriz mal condicionada para generar warning.
 
 <br>
 En el 1:
+<br>
 .avisar en el 1 cuando no se puede hacer xq no puede pivotear
+<br>
 .avisar el caso de LD
 
 <br>
 En el 2:
+<br>
 .avisar el caso de LD
 
 <br>
 En el 3:
+<br>
 . contemplar los casos donde se forma un 0 en diagonal (+)
 
 <br>
 En el 5:
+<br>
 .Modificar para que se use el ejercicio 3
 
 <br>
 En el 6:
+<br>
 hay que hacerlo
 <br>
 ----------------------------------------------------------------------------------
