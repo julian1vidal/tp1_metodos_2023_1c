@@ -16,3 +16,6 @@ Sobre la caratula, podemos usar la que tenemos? Se puede poner resumen e introdu
 preguntar si la funcion tiene que tomar algun txt con la matriz por consola
 <br>
 que pasa si a la matriz tridiagonal se le anula la diagonal?
+<br>
+El problema a resolver, tenemos que plantearlo nosotros? Es cada uno de los puntos?
+<br>
