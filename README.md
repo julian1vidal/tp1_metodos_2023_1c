@@ -7,16 +7,32 @@ Hipotesis: Fnatic 2021(summer) es el mejor roster en potencia  de la historia de
 
 
 xd
+<br> 
+Generales:
+.Contemplar en implementaciones el error numerico(hay que estableer un epsilon).
 
 <br>
-Con que matrices testear los tiempos de la EG con pivoteo
+En el 1:
+.avisar en el 1 cuando no se puede hacer xq no puede pivotear
+.avisar el caso de LD
+
 <br>
-Sobre la caratula, podemos usar la que tenemos? Se puede poner resumen e introduccion teorica el pagina siguiente?
+En el 2:
+.avisar el caso de LD
+
 <br>
-preguntar si la funcion tiene que tomar algun txt con la matriz por consola
+En el 3:
+. contemplar los casos donde se forma un 0 en diagonal (+)
+
 <br>
-que pasa si a la matriz tridiagonal se le anula la diagonal?
+En el 5:
+.Modificar para que se use el ejercicio 3
+
 <br>
-El problema a resolver, tenemos que plantearlo nosotros? Es cada uno de los puntos?
+En el 6:
+hay que hacerlo
 <br>
-Como juntamos todo?
+----------------------------------------------------------------------------------
+<br>
+(+) Hay 2 casos, abajo de ese cero hay todos ceros => sin solucion o infinitas soluciones
+               o abajo de ese cero hay un numero   => se termina todo
