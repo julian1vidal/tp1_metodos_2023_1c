@@ -29,8 +29,14 @@ def test_tridiag_aleatorio():
             x_esperado = np.random.rand(tam)
             d = generar_vec_indep(a, b, c, x_esperado)
 
-            x_vec = paso_a_lista_y_ejecuto(a, b, c, d)  # Devuelve un numpy array para testear con np.allclose
+            # Como creo nuevos a, b, c y d dentro de esta funcion
+            # no se modifican para este scope
+            # (puedo testear las 2 funciones de triangulacion)
+            x_vec = paso_a_lista_y_ejecuto(a, b, c, d)
+            x_vec_2 = paso_a_lista_y_ejecuto_con_precomputo(a, b, c, d)
             assert np.allclose(x_vec, x_esperado)
+            assert np.allclose(x_vec_2, x_esperado)
+
 
 # Junto los vectores a, b y c en una matriz y multiplico por x
 # Devuelve el vector independiente d.
@@ -52,4 +58,14 @@ def paso_a_lista_y_ejecuto(a, b, c, d):
     c = c.tolist()
     d = d.tolist()
     x_vec = ej3.resolver_tridiagonal(a, b, c, d)
+    return np.array(x_vec)
+
+
+def paso_a_lista_y_ejecuto_con_precomputo(a, b, c, d):
+    a = a.tolist()
+    b = b.tolist()
+    c = c.tolist()
+    d = d.tolist()
+    ej3.triangular(a, b, c)
+    x_vec = ej3.resolver_ya_triangulada(a, b, c, d)
     return np.array(x_vec)
