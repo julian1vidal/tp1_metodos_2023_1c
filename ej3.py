@@ -1,6 +1,11 @@
 import numpy as np
 
 
+def resolver_ya_triangulada(a_vec, b_vec, c_vec, d_vec):    # a_vec son los multiplicadores
+    modificar_indep(a_vec, d_vec)
+    return resolver(b_vec, c_vec, d_vec)
+
+
 def resolver_tridiagonal(a_vec, b_vec, c_vec, d_vec):
     triangular(a_vec, b_vec, c_vec)
     modificar_indep(a_vec, d_vec)  # a_vec = mi
