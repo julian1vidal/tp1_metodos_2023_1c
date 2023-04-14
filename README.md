@@ -19,3 +19,4 @@ que pasa si a la matriz tridiagonal se le anula la diagonal?
 <br>
 El problema a resolver, tenemos que plantearlo nosotros? Es cada uno de los puntos?
 <br>
+Como juntamos todo?
