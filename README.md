@@ -10,3 +10,5 @@ xd
 
 <br>
 Con que matrices testear los tiempos de la EG con pivoteo
+<br>
+Sobre la caratula, podemos usar la que tenemos? Se puede poner resumen e introduccion teorica el pagina siguiente?
