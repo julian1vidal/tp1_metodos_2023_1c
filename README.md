@@ -14,3 +14,5 @@ Con que matrices testear los tiempos de la EG con pivoteo
 Sobre la caratula, podemos usar la que tenemos? Se puede poner resumen e introduccion teorica el pagina siguiente?
 <br>
 preguntar si la funcion tiene que tomar algun txt con la matriz por consola
+<br>
+que pasa si a la matriz tridiagonal se le anula la diagonal?
