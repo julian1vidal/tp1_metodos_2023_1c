@@ -13,6 +13,8 @@ Generales:
 .Contemplar en implementaciones el error numerico(hay que estableer un epsilon)
 <br>
 .Buscar matriz mal condicionada para generar warning.
+<br>
+. Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano
 
 <br>
 En el 1:
