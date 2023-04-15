@@ -39,7 +39,7 @@ En el 5:
 <br>
 En el 6:
 <br>
-hay que hacerlo
+Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño de u, etc
 <br>
 ----------------------------------------------------------------------------------
 <br>
