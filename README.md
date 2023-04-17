@@ -19,9 +19,9 @@ Generales:
 <br>
 En el 1:
 <br>
-.avisar en el 1 cuando no se puede hacer xq no puede pivotear
+.avisar en el 1 cuando no se puede hacer xq no puede pivotear \DONE/
 <br>
-.avisar el caso de LD
+.avisar el caso de LD \DONE/
 
 <br>
 En el 2:
