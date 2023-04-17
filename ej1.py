@@ -1,8 +1,6 @@
 import numpy as np
 from numpy.random import rand
-# import aux
 
-#punto 1 ----------------------------------------------------------------------------------------------------------
 def eliminacion_sin_pivoteo(matriz, B):
     matriz = extender_matriz(matriz, B)
     rango = range(1, len(matriz))
@@ -16,18 +14,31 @@ def eliminacion_sin_pivoteo(matriz, B):
 
     result = resolver_ecuaciones(matriz, vector_B)
     return result
-    #print(result)
 
 def eliminar_sobrantes_columna(matriz, fila_pivot, posicion_aii):
     elemento_divisor = fila_pivot[posicion_aii]
+    epsilon = 1.0e-4
+
+    #me fijo si es ld:
+    if(len(matriz) != len(matriz[0])):
+        print("Esta matriz es linealmente dependendiente, no presenta resultado unico")
 
     for n in range(posicion_aii + 1, len(matriz)):
         fila_a_modificar = matriz[n]
         elemento_modificador = fila_a_modificar[posicion_aii] / elemento_divisor
+
         for j in range(posicion_aii, len(fila_a_modificar)):
             fila_a_modificar[j] = fila_a_modificar[j] - (elemento_modificador * fila_pivot[j])
 
+            if (j == posicion_aii & abs(fila_a_modificar[j]) < epsilon):
+                print("Cero en la diagonal, el algoritmo de resolucion es insuficiente")
+
         matriz[n] = fila_a_modificar
+
+    #me fijo si es ld (ultima fila 0, teniendo en cuenta que es cuadrada)
+    if (len(matriz) == len(matriz[0]) & abs(matriz[-1][-1]) < epsilon):
+        print("Esta matriz es linealmente dependendiente, no presenta resultado unico")
+
 
     return matriz
 
@@ -45,9 +56,3 @@ def resolver_ecuaciones(matriz, vector_B):
         x[i] = 1 / matriz[i][i] * (vector_B[i] - suma)
 
     return x
-
-#punto 2---------------------------------------------------------------------------------------
-
-#arri = [[1,2,3,4], [1,4,9,16], [1,8,27, 64], [1 ,16, 81, 256]]
-#B = [2, 10, 44, 190]
-#eliminacion_sin_pivoteo(arri , B)
