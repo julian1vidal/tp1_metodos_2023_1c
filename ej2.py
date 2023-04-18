@@ -1,4 +1,5 @@
 from numpy import linalg
+EPS = 1.0e-4
 
 ################# Ejercicios
 
@@ -8,6 +9,7 @@ from numpy import linalg
 # Retorna el vector solución x de nx1
 def eliminacion_con_pivoteo(A, b):
 
+    posible_error = False
     # Tamaño de la matriz y vector solución x
     n = len(A)
     x = [0.0] * n
@@ -40,16 +42,24 @@ def eliminacion_con_pivoteo(A, b):
             if abs(A[i][k]) < 1.0e-12 : continue
 
             factor = A[i][k] / A[k][k]
+            if A[k][k] < EPS:
+                posible_error = True
             for j in range(k,n):
                 A[i][j] = A[i][j] - A[k][j]*factor
         #   También acarreamos las operaciones en el vector b.
             b[i] = b[i] - b[k]*factor
+
+    if posible_error:
+        print("Posible acarreo de error triangulando la matriz")
+        posible_error = False
 
     # Backwards substitution:
     #   Definimos el último elemento del vector x en base a la ecuación (A_nn . x_n = b_n)
     #   Resolvemos el sistema desde abajo hacia arriba.
 
     x[n-1] = b[n-1] / A[n-1][n-1]
+    if A[n-1][n-1] < EPS:
+        posible_error = True
     for i in range(n-2, -1, -1):
         acum = 0
     
@@ -57,6 +67,11 @@ def eliminacion_con_pivoteo(A, b):
             acum += A[i][j] * x[j]
             
         x[i] = (b[i] - acum) / A[i][i]
+        if A[i][i] < EPS:
+            posible_error = True
+
+    if posible_error:
+        print("Posible acarreo de error resolviendo el sistema")
 
     return x
 
