@@ -12,9 +12,9 @@ Generales:
 <br>
 .Contemplar en implementaciones el error numerico(hay que estableer un epsilon) ✅
 <br>
-.Buscar matriz mal condicionada para generar warning.
+.Buscar matriz mal condicionada para generar warning. (EG con y sin ✅ en jupyter). Falta tridiag
 <br>
-. Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano
+. Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano (miercoles)
 
 <br>
 En el 1:
