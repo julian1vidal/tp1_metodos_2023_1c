@@ -10,7 +10,7 @@ xd
 <br> 
 Generales:
 <br>
-.Contemplar en implementaciones el error numerico(hay que estableer un epsilon)
+.Contemplar en implementaciones el error numerico(hay que estableer un epsilon) ✅
 <br>
 .Buscar matriz mal condicionada para generar warning.
 <br>
