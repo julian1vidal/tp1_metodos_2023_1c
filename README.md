@@ -36,7 +36,7 @@ En el 3:
 <br>
 En el 5:
 <br>
-.Modificar para que se use el ejercicio 3
+.Modificar para que se use el ejercicio 3 ✅
 
 <br>
 En el 6:
