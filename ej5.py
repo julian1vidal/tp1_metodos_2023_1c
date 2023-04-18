@@ -1,5 +1,7 @@
 import numpy as np
 EPS = 1.0e-4
+import ej3
+import math
 
 
 def armar_sistema_laplaciano(vector_solucion):
@@ -10,7 +12,7 @@ def armar_sistema_laplaciano(vector_solucion):
     a[0] = 0
     c[-1] = 0
 
-    result = resolver_tridiagonal(a, b, c, vector_solucion)
+    result = ej3.resolver_tridiagonal(a, b, c, vector_solucion)
     
     return result
 
