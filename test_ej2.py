@@ -4,17 +4,17 @@ import ej2
 
 
 # Defino lista de tamaños de matriz a probar
-tamaños = [3, 5, 10, 100]
+tamaños = [3, 5, 10, 100, 1000]
 
 # Repetir las pruebas n veces
-num_repeticiones = 100
+num_repeticiones = 5
 
 
 def test_eg_con_pivoteo():      # Testeo pivoteando y sin pivotear
     for tam in tamaños:
         for i in range(num_repeticiones):
             sin_pivoteo(tam)
-            con_pivoteo(tam)
+            #con_pivoteo(tam)
 
 def sin_pivoteo(tam):
     # Generar matriz A de rango completo de tamaño tam

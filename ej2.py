@@ -9,13 +9,15 @@ EPS = 1.0e-4
 # Retorna el vector solución x de nx1
 def eliminacion_con_pivoteo(A, b):
 
+    es_singular = False
     posible_error = False
     # Tamaño de la matriz y vector solución x
     n = len(A)
     x = [0.0] * n
 
-    # Iteramos la matriz por filas hasta la anteúltima fila. 
-    for k in range(n-1):
+    # Iteramos la matriz por filas hasta la anteúltima fila.
+    # La ultima fila tambien nos interesa para checkear si tiene solucion unica.
+    for k in range(n):
 
         # Chequeo de pivoteo: 
         #   Si el elemento en la diagonal de la final actual es igual a cero 
@@ -35,6 +37,17 @@ def eliminacion_con_pivoteo(A, b):
                     b[i] = b[k]
                     b[k] = valor_b_i
                     break
+
+            # Si termino de pivotear y sigue habiendo un 0 -> Matriz singular
+            if A[k][k] == 0:
+                es_singular = True
+        if es_singular:
+            if b[k] != 0:
+                print("El sistema no tiene solucion")
+            else:
+                print("El sistema tiene infinitas soluciones")
+            return x
+
 
         # Eliminación Guasseana:
         #   La aplicamos en la fila actual luego del chequeo de pivoteo.

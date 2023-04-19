@@ -7,7 +7,7 @@ import ej1
 tamaños = [3, 5, 10, 100, 1000]
 
 # Repetir las pruebas n veces
-num_repeticiones = 1
+num_repeticiones = 5
 
 
 def test_eg_sin_pivoteo():
