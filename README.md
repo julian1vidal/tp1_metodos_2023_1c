@@ -45,5 +45,3 @@ Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño
 <br>
 ----------------------------------------------------------------------------------
 <br>
-(+) Hay 2 casos, abajo de ese cero hay todos ceros => sin solucion o infinitas soluciones
-               o abajo de ese cero hay un numero   => se termina todo
