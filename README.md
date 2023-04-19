@@ -27,7 +27,6 @@ En el 1:
 En el 2:
 <br>
 .avisar el caso de LD ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
-2d) preguntar!
 
 <br>
 En el 3:
@@ -38,7 +37,6 @@ En el 3:
 En el 5:
 <br>
 .Modificar para que se use el ejercicio 3 ✅
-FALTA TESTEARLO?
 
 <br>
 En el 6:
