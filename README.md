@@ -28,6 +28,8 @@ En el 2:
 <br>
 .avisar el caso de LD ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
 
+
+
 <br>
 En el 3:
 <br>
@@ -37,11 +39,15 @@ En el 3:
 En el 5:
 <br>
 .Modificar para que se use el ejercicio 3 ✅
+<br>
+. INFORME | Explicar como se pasa de la formula a la matriz
 
 <br>
 En el 6:
 <br>
 Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño de u, etc
+<br>
+. INFORME | Explicar como se pasa de la formula a la matriz (paso elementos a matriz general, demostrar que el caso particular de la generalizacion es el nuestro)
 <br>
 ----------------------------------------------------------------------------------
 <br>
