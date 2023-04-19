@@ -15,8 +15,12 @@ Generales:
 .Buscar matriz mal condicionada para generar warning. (✅ en jupyter)
 <br>
 . Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano (miercoles)
-
 <br>
+Dudas:
+<br>
+. En el 5, HACE FALTA ESCRIBIR COMO LLEGAMOS DE $U_{i-1}$ Y ESO A LA MATRIZ? SE PUEDE TOMAR COMO DADO? DEBIDO A Q ESTA EN EL ENUNCIADO
+<br>
+. Hace falta el pseudocodigo en la experimentacion?
 En el 1:
 <br>
 .avisar en el 1 cuando no se puede hacer xq no puede pivotear ✅
