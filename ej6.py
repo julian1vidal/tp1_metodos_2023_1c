@@ -1,5 +1,6 @@
-import numpy
+import numpy as np
 import ej3
+import math
 
 def generar_sistema_de_difusion(alfa, u, iteraciones):
     res = [u]
@@ -11,8 +12,8 @@ def generar_sistema_de_difusion(alfa, u, iteraciones):
     ej3.triangular(a_vec, b_vec, c_vec)
     
     for i in range(iteraciones):
-      u = ej3.resolver_ya_triangulada(a_vec, b_vec, c_vec, u)
-      res.append(u)
+        u = ej3.resolver_ya_triangulada(a_vec, b_vec, c_vec, u)
+        res.append(u)
     return res
 
 def armar_diagonales(alfa, n):
