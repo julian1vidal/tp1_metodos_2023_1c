@@ -12,26 +12,26 @@ Generales:
 <br>
 .Contemplar en implementaciones el error numerico(hay que estableer un epsilon) ✅
 <br>
-.Buscar matriz mal condicionada para generar warning. (EG con y sin ✅ en jupyter). Falta tridiag
+.Buscar matriz mal condicionada para generar warning. (✅ en jupyter)
 <br>
 . Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano (miercoles)
 
 <br>
 En el 1:
 <br>
-.avisar en el 1 cuando no se puede hacer xq no puede pivotear \DONE/
+.avisar en el 1 cuando no se puede hacer xq no puede pivotear ✅
 <br>
-.avisar el caso de LD \DONE/
+.avisar el caso de LD ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
 
 <br>
 En el 2:
 <br>
-.avisar el caso de LD
+.avisar el caso de LD ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
 
 <br>
 En el 3:
 <br>
-. contemplar los casos donde se forma un 0 en diagonal (+)
+. contemplar los casos donde se forma un 0 en diagonal ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
 
 <br>
 En el 5:
@@ -45,5 +45,3 @@ Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño
 <br>
 ----------------------------------------------------------------------------------
 <br>
-(+) Hay 2 casos, abajo de ese cero hay todos ceros => sin solucion o infinitas soluciones
-               o abajo de ese cero hay un numero   => se termina todo
