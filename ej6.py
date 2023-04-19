@@ -3,7 +3,7 @@ import ej3
 import math
 
 def generar_sistema_de_difusion(alfa, u, iteraciones):
-    res = []
+    res = [u]
     c_vec = armar_diagonales(alfa, len(u))
     c_vec[-1] = 0
     a_vec = armar_diagonales(alfa, len(u))
