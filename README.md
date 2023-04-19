@@ -27,6 +27,7 @@ En el 1:
 En el 2:
 <br>
 .avisar el caso de LD ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
+2d) preguntar!
 
 <br>
 En el 3:
