@@ -14,7 +14,7 @@ Generales:
 <br>
 .Buscar matriz mal condicionada para generar warning. (✅ en jupyter)
 <br>
-. Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano (miercoles)
+. Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano (miercoles) ✅ (se puede)
 <br>
 Dudas:
 <br>
