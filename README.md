@@ -19,9 +19,9 @@ Generales:
 <br>
 En el 1:
 <br>
-.avisar en el 1 cuando no se puede hacer xq no puede pivotear \DONE/
+.avisar en el 1 cuando no se puede hacer xq no puede pivotear ✅
 <br>
-.avisar el caso de LD \DONE/
+.avisar el caso de LD ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
 
 <br>
 En el 2:
@@ -31,7 +31,7 @@ En el 2:
 <br>
 En el 3:
 <br>
-. contemplar los casos donde se forma un 0 en diagonal (+)
+. contemplar los casos donde se forma un 0 en diagonal ✅ (cuando esto ocurre, devuelve array de 0s y un mensaje.)
 
 <br>
 En el 5:
