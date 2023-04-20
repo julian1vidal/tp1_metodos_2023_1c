@@ -59,13 +59,13 @@ Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño
 <br>
 * Como minimo 4: Introduccion, Desarrollo, Resultados, Conclusiones (desarrollo probablemente subseccionar) ✅
 <br>
-* En apendice van demostraciones q embarran un poco el informe 
+* En apendice van demostraciones q embarran un poco el informe ✅
 <br> 
 * Para ejercicios como el 2b, con poner el ejemplo y aclarar que estan respondiendo al punto de la catedra, es suficiente
 <br>
 * Los pseudocodigos del armado de los vectores de experimentacion no son necesarios ✅
 <br>
-* Explayarse un poquito mas sobre difusion, hablar de error numerico y un poco mas sobre eliminacion Gaussiana.
+* Explayarse un poquito mas sobre difusion, hablar de error numerico y un poco mas sobre eliminacion Gaussiana. ✅
 <br>
 * Plantear los test de la catedra como experimentacion ✅
 <br>
