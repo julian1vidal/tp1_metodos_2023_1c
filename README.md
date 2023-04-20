@@ -57,9 +57,9 @@ Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño
 <br>
 * Sobre la experimentacion: hipotesis en desarrollo, resultados en resultados, conclusion es resumen de todo (no se dice nada nuevo)
 <br>
-* Como minimo 4: Introduccion, Desarrollo, Resultados, Conclusiones (desarrollo probablemente subseccionar)
+* Como minimo 4: Introduccion, Desarrollo, Resultados, Conclusiones (desarrollo probablemente subseccionar) ✅
 <br>
-* En apendice van demostraciones q embarran un poco el informe
+* En apendice van demostraciones q embarran un poco el informe 
 <br> 
 * Para ejercicios como el 2b, con poner el ejemplo y aclarar que estan respondiendo al punto de la catedra, es suficiente
 <br>
@@ -67,8 +67,8 @@ Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño
 <br>
 * Explayarse un poquito mas sobre difusion, hablar de error numerico y un poco mas sobre eliminacion Gaussiana.
 <br>
-* Plantear los test de la catedra como experimentacion
+* Plantear los test de la catedra como experimentacion 
 <br>
-* Subdividir el desarrollo en Marco Teorico Y Hipotesis de experimentasion
+* Subdividir el desarrollo en Marco Teorico Y Hipotesis de experimentasion ✅
 <br>
-* Pasar los segundos de la tabla a microsegundos
+* Pasar los segundos de la tabla a microsegundos ✅
