@@ -42,14 +42,14 @@ En el 5:
 <br>
 .Modificar para que se use el ejercicio 3 ✅
 <br>
-. INFORME | Explicar como se pasa de la formula a la matriz
+. INFORME | Explicar como se pasa de la formula a la matriz ✅
 
 <br>
 En el 6:
 <br>
-Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño de u, etc
+Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño de u, etc ✅
 <br>
-. INFORME | Explicar como se pasa de la formula a la matriz (paso elementos a matriz general, demostrar que el caso particular de la generalizacion es el nuestro)
+. INFORME | Explicar como se pasa de la formula a la matriz (paso elementos a matriz general, demostrar que el caso particular de la generalizacion es el nuestro) ✅
 <br>
 ----------------------------------------------------------------------------------
 <br>
