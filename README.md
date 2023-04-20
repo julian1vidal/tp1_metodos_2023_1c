@@ -63,11 +63,11 @@ Hay que experimentar con los parametros del 6, dicese alfa, iteraciones, tamaño
 <br> 
 * Para ejercicios como el 2b, con poner el ejemplo y aclarar que estan respondiendo al punto de la catedra, es suficiente
 <br>
-* Los pseudocodigos del armado de los vectores de experimentacion no son necesarios
+* Los pseudocodigos del armado de los vectores de experimentacion no son necesarios ✅
 <br>
 * Explayarse un poquito mas sobre difusion, hablar de error numerico y un poco mas sobre eliminacion Gaussiana.
 <br>
-* Plantear los test de la catedra como experimentacion 
+* Plantear los test de la catedra como experimentacion ✅
 <br>
 * Subdividir el desarrollo en Marco Teorico Y Hipotesis de experimentasion ✅
 <br>
