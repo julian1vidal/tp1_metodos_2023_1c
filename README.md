@@ -16,8 +16,6 @@ Generales:
 <br>
 . Hay que preguntar sobre el uso de numpy para armar por ejemplo las diagnoales del laplaciano (miercoles) ✅ (se puede)
 <br>
-Dudas:
-<br>
 . Hace falta el pseudocodigo en la experimentacion?
 En el 1:
 <br>
